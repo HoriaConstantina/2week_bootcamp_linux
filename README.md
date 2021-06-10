@@ -113,3 +113,25 @@ chmod has permission arguments that are made up of 3 components
 
 
 There are two ways you can use chmod and you will see both used. One is shorter and one is more descriptive.
+
+
+
+
+## Environment Variables
+- How can we check the existing env var in our system 'printenv var'
+- How can we create an Env variable 'export name_of_the_var=value'
+- ~/.bashrc, ~/.profile, ~/.bash_profile
+
+
+## How to setup persistent environment variables
+
+- 1st step - do echo $SHELL to see what kind of shell you are using
+- 2nd step - set variables in /home/.bashrc ( nano /home/.bashrc or nano .bashrc )
+- 3rd step - At the end of the file append the following line: export FIRST_NAME="yourName" and save
+- 4th step - do source /home/.bashrc or source .bashrc
+- 5th step - in the terminal do the following: sudo nano /etc/profile
+- 6th step - Append the variable at the end of the file
+- 7th step - Save and exit
+- 8th step - Verify if it is working: printenv VARIABLE_NAME
+- 9th step - exit from your VM
+- 10th step - ssh back into your VM and do again printenv VARIABLE_NAME
