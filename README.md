@@ -26,6 +26,15 @@
 -Delete multiple files `rm name_of_the_file1 name_of_the_file2`
 
 
+## Vagrant
+- To initialise vagrant -> vagrant init
+- To start vagrant -> vagrant up
+- To destroy vagrant -> vagrant destroy
+- To SSH into vagrant -> vagrant ssh
+- To reload vagrant -> vagrant reload
+
+
+
 ## Permissions
 
 
